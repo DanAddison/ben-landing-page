@@ -20,7 +20,7 @@ body {
   font-size: 1em;
   font-weight: 400;
   font-family: "Lato", sans-serif;
-  background-color: #676360;
+  background-color: #544d48;
 }
 
 .logo-row {
@@ -39,8 +39,13 @@ body {
 h1 {
   text-align: center;
   margin-top: 1.5em;
-  font-size: 1.75em;
-  letter-spacing: 1.25px;
-  line-height: 1.2;
+  font-size: 1.25rem;
+  letter-spacing: 1px;
   text-transform: uppercase;
+}
+
+@media screen and (min-width: 500px) {
+  h1 {
+    font-size: 1.75rem;
+  }
 }
